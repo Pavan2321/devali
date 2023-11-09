@@ -81,33 +81,34 @@ body {
 .created__by{
     position: fixed;
     bottom: 1rem;
-    right: 1rem;
     display: flex;
+    flex-direction: column;
     gap: .5rem;
     align-items: center;
+    line-height: .5;
 }
 
 .created__by p{
   font-size: .75rem;
-  color: rgb(191, 191, 238);
+  color: rgb(172, 172, 239);
 }
 
 .created__by span{
   position: absolute;
-  bottom: -3px;
+  bottom: 9px;
 }
 
 .views{
   position: fixed;
-    bottom: 1rem;
-    left: 1rem;
+    bottom: .5rem;
+    right: .5rem;
     display: flex;
     gap: .5rem;
     align-items: center;
 }
 
 .views p{
-    font-size: .75rem;
+    font-size: .5rem;
     color: rgb(191, 191, 238);
 }
 
