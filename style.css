@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(103, 62, 198, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-size: clamp(1rem,2vw,3rem);
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
