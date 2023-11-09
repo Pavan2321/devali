@@ -88,14 +88,29 @@ body {
 }
 
 .created__by p{
+  font-size: .75rem;
+  color: rgb(191, 191, 238);
+}
+
+.created__by span{
+  position: absolute;
+  bottom: -3px;
+}
+
+.views{
+  position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.views p{
     font-size: .75rem;
     color: rgb(191, 191, 238);
 }
 
-.created__by span{
-    position: absolute;
-    bottom: -3px;
-}
 
 @keyframes scale {
   0% {

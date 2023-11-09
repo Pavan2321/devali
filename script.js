@@ -2,9 +2,9 @@ const userNameTag = document.getElementById("name");
 const quoteTag = document.getElementById("quote");
 let username = prompt("Can I Know Your Sweet Name");
 
-const capName = username.split(" ");
-for (var i = 0; i < capName.length; i++) {
-  capName[i] = capName[i].charAt(0).toUpperCase() + capName[i].slice(1);
+const capName = username?.split(" ");
+for (var i = 0; i < capName?.length; i++) {
+  capName[i] = capName[i].charAt(0)?.toUpperCase() + capName[i]?.slice(1);
 }
 
 diwaliQuotes = [
@@ -26,5 +26,7 @@ diwaliQuotes = [
 ];
 
 let randomNumber = Math.ceil(Math.random() * 10);
-userNameTag.innerText = capName.join(" ");
+userNameTag.innerHTML = capName?.join(" ") || "";
 quoteTag.innerHTML = `&#10077; ${diwaliQuotes[randomNumber]} &#10078;`;
+
+let nameData = capName?.join(" ") || ""
