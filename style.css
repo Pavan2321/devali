@@ -78,14 +78,24 @@ body {
   text-shadow: 1px 2px 10px var(--shadow-color);
   color: rgb(239, 239, 202);
 }
+.created__by{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
 
-svg {
-    fill: currentColor;
-    height: auto;
-    max-width: 66vmin;
-    transform-origin: center;
-    width: 66%;
-  }
+.created__by p{
+    font-size: .75rem;
+    color: rgb(191, 191, 238);
+}
+
+.created__by span{
+    position: absolute;
+    bottom: -3px;
+}
 
 @keyframes scale {
   0% {
